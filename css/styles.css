@@ -1,0 +1,40 @@
+.block-1{
+    border: 1px solid teal;
+    height: 600px;
+    display: flex;
+    align-items: flex-end;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    display: flex;
+    font-size: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.width-small{
+    width: 300px;
+}
+.width-large{
+    width: 500px;
+}
+.red{
+    background: orangered;
+}
+.orange{
+    background: orange;
+}
+.blue{
+    background: turquoise;
+}
+.green{
+    background: springgreen
+}
