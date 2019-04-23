@@ -1,4 +1,4 @@
-.block-1{
+.block-1, .block-2, .block-3{
     border: 1px solid teal;
     height: 600px;
     display: flex;
@@ -24,6 +24,12 @@ h2{
 .width-large{
     width: 500px;
 }
+.width-600{
+    width: 600px;
+}
+.width-400{
+    width:400px;
+}
 .red{
     background: orangered;
 }
@@ -38,4 +44,12 @@ h2{
 }
 .align-top{
     align-self: flex-start;
+}
+.block-2{
+    flex-direction: column;
+    height: 1000px;
+}
+.block-3{
+    flex-wrap: wrap;
+    height: 640px;
 }
