@@ -9,16 +9,14 @@ h1{
     justify-content: center;
 }
 h2{
-    display: flex;
     font-size: 100px;
-    justify-content: center;
-    align-items: center;
 }
 .box{
     height: 300px;
     margin: 10px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .width-small{
     width: 300px;
@@ -37,4 +35,7 @@ h2{
 }
 .green{
     background: springgreen
+}
+.align-top{
+    align-self: flex-start;
 }
